@@ -1,0 +1,18 @@
+Function Main
+    Declare Integer sum
+    Declare Integer n
+    Declare Integer r
+    
+    Assign num = 0
+    Input n
+    While n>0
+        Assign r = n%10
+        Assign sum = sum+r
+        Assign n = n/10
+    End
+    If sum%3=0
+        Output true
+    False:
+        Output false
+    End
+End

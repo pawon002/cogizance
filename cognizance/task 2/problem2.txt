@@ -1,0 +1,15 @@
+Function Main
+    Declare Integer check, x, y, z, n
+    
+    Input check
+    Assign n = 0
+    Assign y = 1
+    Assign x = 0
+    While x<check
+        Assign x = x+1
+        Assign z = n+y
+        Assign n = y
+        Assign y = z
+    End
+    Output n
+End
